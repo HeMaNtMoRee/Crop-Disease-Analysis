@@ -29,6 +29,10 @@ Extract the project files to a folder on your computer.
     ```bash
     python -m venv .venv
     ```
+3. Bypass Excecution policy
+```bash
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+```
 3.  Activate the environment:
     ```bash
     .\.venv\Scripts\activate
